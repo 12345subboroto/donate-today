@@ -1,5 +1,5 @@
 
-body{
+main{
     max-width: 1120px;
     margin: 0 auto;
 }
@@ -143,4 +143,74 @@ plan-sub-title{
         flex-direction: column;
     }
     
+}
+/*contribute style*/
+.contribute{
+    display: flex;
+}
+.contribute-img{
+    width:50px;
+    height: 40px;
+}
+/*footer style*/
+.footer-container{
+    margin-top: 120px;
+    height: 500px;
+    text-align: center;
+    padding: 130px;
+}
+.updates-title{
+    color: rgba(18, 18, 18, 1);
+    font-size: 45px;
+    font-weight: 700;
+}
+.updates-description{
+    color: rgba(112, 112, 112, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+.updates-button{
+    background-color: aqua;
+    height: 100px;
+    padding: 60px;
+    margin-top: 70px;
+    /* margin-bottom: 70px; */
+    border-radius: 16px;
+
+}
+.btn-update{
+    background-color: rgba(217, 217, 217, 1);
+    padding: 14px 150px 14px 17px;
+    color: rgba(170, 159, 159, 1);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.update-btn{
+    background-color: rgba(255, 89, 89, 1);
+    padding: 14px 42px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    right: 5px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.update-btn:hover{
+    background-color: rgb(87, 39, 39);
+    cursor: pointer;
+  
+}
+.end{
+    background-color: black;
+    margin-bottom: 50px;
+    color: brown;
+    height: 150px;
+    text-align: center;
+    padding: 40px;
 }
