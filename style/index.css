@@ -1,0 +1,146 @@
+
+body{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.header-container{
+    height: 669px;
+    background-image:linear-gradient(to top,rgb(16,16,16),
+    rgba(16,16,16,0)), url(../images/donation14.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.donate-container{
+    text-align: center;
+    padding: 320px;
+}
+.donate-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: bold;
+    font-weight: 65px;
+}
+.donate-description{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400px;
+}
+.btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 16px 20px;
+    background-color: brown;
+    border-radius: 8px;
+    border: 0px;
+
+}
+.btn:hover{
+    background-color: rgb(94, 19, 19);
+    cursor: pointer;
+}
+/*responsive */
+@media screen and (max-width:576px) {
+    .donate-container{
+        
+       padding: 0px;
+    }
+    
+}
+/* amount style*/
+.amount{
+    text-align: center;
+    margin-top: 120px;
+    padding: 130px;
+    gap: 24px;
+}
+.btn-primary{
+    background-color: rgb(193, 193, 233);
+    padding: 20px 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: rgba(112, 112, 112, 1);
+    font-weight: 700;
+    font-size: 30px;
+}
+.btn-primary:hover{
+    background-color: rgb(116, 134, 134);
+    color:lightblue;
+    cursor: pointer;
+}
+.amount input[type="text"]{
+    background-color: rgb(210, 233, 233);
+    color: rgba(179, 179, 179, 1);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 200px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 24px;
+}
+.amount-title{
+    color: rgba(18, 18, 18, 1);
+    font-size: 45px;
+    font-weight: bold;
+}
+.amount-description{
+    color: rgba(112, 112, 112, 1);
+    font-weight: 400;
+    font-size: 28px;
+}
+/*responsive */
+@media screen and (max-width:576px) {
+    .amount{
+        padding: 10px;
+    }
+    .amount input[type="text"]{
+        width: calc(100% - 400px);
+    }
+    
+}
+/*plan style*/
+.plan{
+    margin-bottom: 120px;
+}
+.plan-container{
+    text-align: center;
+    padding: 50px;
+}
+.plan-title{
+    color: rgba(18, 18, 18, 1);
+    font-size: 45px;
+    font-weight: 700;
+}
+.plan-description{
+    color:rgba(112, 112, 112, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+.plan-sub-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+plan-sub-title{
+    color: rgba(18, 18, 18, 1);
+    font-size: 24px;
+    font-weight: 500;
+}
+.box{
+    border-radius: 5px;
+    height: 200px;
+    padding: 63px 30px 54px 30px;
+    background-color:rgb(184, 216, 216);
+    box-shadow: 1px 5px 3px;
+}
+/*responsive*/
+@media screen and (max-width:576px) {
+    .plan-sub-container{
+        flex-direction: column;
+    }
+    
+}
